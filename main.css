@@ -1,0 +1,22 @@
+:root {
+    /* This styling will be applied globally */
+    --white: #ffffffff;
+    --cobalt-blue: #004ba8ff;
+    --charcoal: #4a525aff;
+    --raisin-black: #24272bff;
+    --black: #000000ff;
+
+    padding:10px;
+}
+
+.highlight-box {
+    border-radius: 10px;
+    border: 7px solid var(--charcoal);
+    background-color: var(--cobalt-blue);
+    color: white;
+    padding: 10px;
+}
+
+img {
+    border-radius: 10px;
+}

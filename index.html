@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to HTML/CSS/JS</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div>
+        <h1 id="title">My awesome webpage</h1>
+        <em>Hope you have a nice stay!</em>
+        <p class="highlight-box shadow mt-4" id="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas pulvinar sodales. Maecenas et magna id eros porta hendrerit. Mauris eu egestas ligula. Etiam egestas efficitur libero, eget vehicula odio congue nec. Maecenas eu dui sed sem porta iaculis sed vitae erat. Etiam accumsan, eros ac gravida blandit, libero velit feugiat risus, id scelerisque massa metus et lorem. Nullam consectetur ultricies ante eget egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies pretium lacinia. Morbi posuere eu mi ultricies ornare. Vivamus a mi ultrices, commodo est at, consectetur diam. Fusce et ex nunc. Proin id varius neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec quis suscipit leo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas pulvinar sodales. Maecenas et magna id eros porta hendrerit. Mauris eu egestas ligula. Etiam egestas efficitur libero, eget vehicula odio congue nec. Maecenas eu dui sed sem porta iaculis sed vitae erat. Etiam accumsan, eros ac gravida blandit, libero velit feugiat risus, id scelerisque massa metus et lorem. Nullam consectetur ultricies ante eget egestas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies pretium lacinia. Morbi posuere eu mi ultricies ornare. Vivamus a mi ultrices, commodo est at, consectetur diam. Fusce et ex nunc. Proin id varius neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec quis suscipit leo.</p>
+    </div>
+
+    <div>
+        <h2>Why I'm awesome</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Because of course I am</li>
+            <li class="list-group-item">Because I'm strong</li>
+            <li class="list-group-item">Because I eat bananas</li>
+            <li class="list-group-item">Because I don't back down from a challenge</li>
+            <li class="list-group-item">Because I'm nice to my friends</li>
+        </ul>
+    </div>
+
+    <div class="my-4">
+        <button onclick="showAlert()" type="button" class="btn btn-primary">Show Alert</button>
+        <button onclick="changeHeading()" type="button" class="btn btn-secondary">Change Heading</button>
+        <a class="btn btn-danger" role="button" href="https://www.google.com" target="_blank">Return to Google</a>
+    </div>
+
+    <div class="my-4">
+        <input id="text-input" type="text" placeholder="Type to change the title!" oninput="changeHeadingDynamic()">
+    </div>
+
+    <div>
+        <img class="shadow" height=400 src="image.jpg" alt="Forest of trees with green leaves.">
+    </div>
+</body>
+</html>
